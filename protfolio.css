@@ -148,16 +148,19 @@ main section{
    color: #757575;
 }
 /* Resume Section styles */
+.resume-column{
+    display: flex;
+}
 .resume-column-title{
     color: #474747;
     font-size: 30px;
     font-weight: 700;
 }
-.resume-container{
-    display: flex;
+.resume-item{
+    
     gap: 50px;
-
 }
+
 .resume-item-title{
     color: #474747;
     font-size: 25px;
@@ -180,4 +183,12 @@ main section{
 .download-cv{
     text-align: center;
     margin-top: 50px;
+}
+
+/* footer styles */
+footer{
+    display: flex;
+    background: #fff8f3;
+    padding: 130px 200px;
+    margin-top: 100px;
 }
